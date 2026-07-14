@@ -2,7 +2,7 @@ import "./Hero.css";
 
 import {motion} from "framer-motion";
 
-import ParticlesBackground from "../Particles/ParticlesBackground";
+import ParticlesBackground from "../particles/ParticlesBackground";
 
 
 
