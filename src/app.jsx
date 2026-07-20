@@ -1,47 +1,29 @@
-import Navbar from "./components/Navbar/Navbar";
-import Hero from "./components/hero/Hero";
-import About from "./components/About/About";
-import Values from "./components/Values/Values";
-import Services from "./components/Services/Services"
-import Clients from "./components/Clients/Clients";
-import Equipment from "./components/Equipament/Equipment";
-import Team from "./components/Team/Team";
-import Contact from "./components/Contact/Contact";
-import Footer from "./components/Footer/Footer";
+import Navbar from "./components/navbar/navbar";
+import Hero from "./components/hero/hero";
+import About from "./components/about/about";
+import Values from "./components/values/values";
+import Services from "./components/services/services";
+import Clients from "./components/clients/clients";
+import Equipment from "./components/equipment/equipment";
+import Team from "./components/team/team";
+import Contact from "./components/contact/contact";
+import Footer from "./components/footer/footer";
 
-
-function App(){
-
-return(
-
-<>
-
-<Navbar/>
-
-<Hero/>
-
-
-<About/>
-
-<Values/>
-
-<Services/>
-
-<Clients/>
-
-<Equipment/>
-
-<Team/>
-
-<Contact/>
-
-<Footer/>
-
-</>
-
-)
-
+function App() {
+  return (
+    <>
+      <Navbar />
+      <Hero />
+      <About />
+      <Values />
+      <Services />
+      <Clients />
+      <Equipment />
+      <Team />
+      <Contact />
+      <Footer />
+    </>
+  );
 }
-
 
 export default App;
